@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #fdf0d5;
+  overflow: hidden;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #4a3f35;
+}
+
+#chicken {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#counter {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #7c5e10;
+}
+
+#reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
